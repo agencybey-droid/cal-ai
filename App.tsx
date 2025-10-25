@@ -20,7 +20,7 @@ import {
   updateUserProfile,
 } from "./services/localStorageService"
 import { getFormattedDate, isSameDay } from "./utils/dateUtils"
-import { XIcon, PlusIcon } from "../components/Icons"
+import { XIcon, PlusIcon } from "./components/Icons"
 
 type ModalTab = "camera" | "upload" | "search"
 
